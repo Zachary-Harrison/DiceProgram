@@ -4,7 +4,7 @@ This program calculates the mean and standard deviation of various dice rolls an
 
 ## Usage
 
-> $\color{red} \text{Disclaimer}$: This program uses a brute-force algorithm if you are dropping dice, which can result in very long wait times. If you're determined to get such results, I recommend looking to the [Similar Projects](#similar-projects) section.
+> **Disclaimer**: This program uses a brute-force algorithm if you are dropping dice, which can result in very long wait times. If you're determined to get such results, I recommend looking to the [Similar Projects](#similar-projects) section.
 
 ### Building and Running as an IntelliJ Project
 
@@ -16,7 +16,7 @@ To use the WordHunt Solver, follow these steps:
     ```
 2. Open the project in IntelliJ IDEA.
 3. Click on `File` > `Open`, navigate to the project directory, and click `OK`.
-4. Once the project has loaded, click on Select a Run/Debug Configuration or make a new one.
+4. Once the project has loaded, click on `Select a Run/Debug Configuration` or make a new one.
 
 ### Running the Java Executable from Command Line
 
@@ -26,12 +26,12 @@ To use the WordHunt Solver, follow these steps:
     ```bash
     javac Main.java DynamicCounter.java
     ```
-    > $\color{lightblue} \text{Note}$: You will only need to do this once, unless you modify the source code.
+    > **Note**: You will only need to do this once, unless you modify the source code.
 4. Run the following command to execute the program, replacing appropriate bracketed parameters:
     ```bash
     java -cp . Main [numOfDice]d[numOfSides] [dropLowest] [dropHighest]
     ```
-    > $\color{lightblue} \text{Note}$: dropLowest and dropHighest are optional parameters with default values of 0.
+    > **Note**: dropLowest and dropHighest are optional parameters with default values of 0.
 
 
 ### Running the Precompiled JAR File
@@ -42,7 +42,7 @@ To use the WordHunt Solver, follow these steps:
     ```bash
     java -jar DiceProgram.jar [numOfDice]d[numOfSides] [dropLowest] [dropHighest]
     ```
-    > $\color{lightblue} \text{Note}$: dropLowest and dropHighest are optional parameters with default values of 0.
+    > **Note**: dropLowest and dropHighest are optional parameters with default values of 0.
 
 
 ## Similar projects
