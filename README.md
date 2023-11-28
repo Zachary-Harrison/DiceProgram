@@ -1,6 +1,6 @@
 # DiceProgram
 
-This program calculates the mean and standard deviation of various dice rolls, and displays this information to the user's console. It allows users to specify the number of dice, the number of sides on each die, and the number of the lowest and highest rolls to drop.
+This program calculates the mean and standard deviation of various dice rolls and displays this information to the user's console. It allows users to specify the number of dice, the number of sides on each die, and the number of the lowest and highest rolls to drop.
 
 ## Usage
 
