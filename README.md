@@ -20,7 +20,7 @@ To use the WordHunt Solver, follow these steps:
 
 ### Running the Java Executable from Command Line
 
-1. Download the [Main](src/Main.java) and [DynamicCounter](src/DynamicCounter.java) java files and put them in the same directory.
+1. Download the [Main](/src/Main.java) and [DynamicCounter](/src/DynamicCounter.java) java files and put them in the same directory.
 2. Open a terminal, navigating to the directory with the above downloaded files.
 3. Run the following command to compile the java files into bytecode:
     ```bash
@@ -36,7 +36,7 @@ To use the WordHunt Solver, follow these steps:
 
 ### Running the Precompiled JAR File
 
-1. Download the [DiceProgram.jar](out/artifacts/DiceProgram_jar/DiceProgram.jar) jar file.
+1. Download the [DiceProgram.jar](/out/artifacts/DiceProgram_jar/DiceProgram.jar) jar file.
 2. Open a terminal, navigating to the directory with the above downloaded file.
 3. Run the following command to execute the program, replacing appropriate bracketed parameters:
     ```bash
